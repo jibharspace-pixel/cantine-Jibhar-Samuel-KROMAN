@@ -26,8 +26,8 @@ function calculerTotal(prixUnitaire, quantite) {
 }
 const montantTotal = calculerTotal(prixUnitaire, quantite);
 console.log(`Client: ${client}`);
-for(ligne = 1; ligne <= 3; ligne++) { 
-console.log(`Portion N° ${ligne}: ${nomPlat} - ${prixUnitaire} FCFA`);
+for(compteur = 1; compteur <= quantite; compteur++) { 
+console.log(`Portion N° ${compteur}: ${nomPlat} - ${prixUnitaire} FCFA`);
 if (montantVerse >= montantTotal) {
     const monnaie = montantVerse - montantTotal;
     console.log(`Monnaie à rendre : ${monnaie} FCFA`);
@@ -35,4 +35,4 @@ if (montantVerse >= montantTotal) {
     const montantRestant = montantTotal - montantVerse;
     console.log(`Montant restant à payer : ${montantRestant} FCFA`);
 }
-
+}
