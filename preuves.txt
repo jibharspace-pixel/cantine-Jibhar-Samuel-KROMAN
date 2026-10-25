@@ -1,0 +1,26 @@
+HP@DESKTOP-EP8N2AU MINGW64 ~/Downloads/cantine-Jibhar Samuel-KROMAN (main)
+$ node cantine.js
+Client: Awa
+Portion N° 1: Attiéké-poisson - 1500 FCFA
+Portion N° 2: Attiéké-poisson - 1500 FCFA
+Portion N° 3: Attiéké-poisson - 1500 FCFA
+Total à payer : 4500 FCFA
+Monnaie à rendre : 500 FCFA
+
+HP@DESKTOP-EP8N2AU MINGW64 ~/Downloads/cantine-Jibhar Samuel-KROMAN (main)
+$ node cantine.js
+Client: Awa
+Portion N° 1: Riz-poulet - 2000 FCFA
+Portion N° 2: Riz-poulet - 2000 FCFA
+Total à payer : 4000 FCFA
+Montant restant à payer : 1000 FCFA 
+
+HP@DESKTOP-EP8N2AU MINGW64 ~/Downloads/cantine-Jibhar Samuel-KROMAN (main)
+$ node cantine.js
+Client: Awa
+Portion N° 1: Alloco-œuf - 1000 FCFA
+Portion N° 2: Alloco-œuf - 1000 FCFA
+Portion N° 3: Alloco-œuf - 1000 FCFA
+Portion N° 4: Alloco-œuf - 1000 FCFA
+Total à payer : 4000 FCFA
+Monnaie à rendre : 0 FCFA
