@@ -7,8 +7,9 @@ le projet est un programme JavaScript qui calcule le montant d'une commande de c
 
 ## Commande d'exécution
 
-node .\cantine.js est un programme qui peut se lire en deux points
-le programme node qui execute et le fichier à executer 
-.\cantine.js répresente le chemin du fichier 
+node .\cantine.js est un programme qui peut se lire en deux points :
 
-une fois cette commande exécutée node lit notre fichier de haut en bas et execute , le code écrit ligne par ligne tout en respectant l'ordre établi dans le programme
+le programme node qui execute et le fichier à executer  et le
+" .\cantine.js" répresente le chemin du fichier 
+
+une fois cette commande exécutée node lit notre fichier de haut en bas et execute  le code écrit ligne par ligne tout en respectant l'ordre établi dans le programme
