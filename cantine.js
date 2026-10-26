@@ -1,8 +1,14 @@
 const client = "Awa";
-const codePlat = 3;
-const qteTxt = "4";
-const montantVerse = 4000;
+const codePlat = 2;
+const qteTxt = "2";
+const montantVerse = 3000;
 const quantite=Number(qteTxt);
+const codeValide = Number.isInteger(codePlat) && codePlat >= 1 && codePlat <= 3;
+const quantiteValide = Number.isInteger(quantite) && quantite > 0;
+if (!codeValide || !quantiteValide) {
+    console.log("Erreur : Code de plat ou quantité invalide.");
+    process.exit(1);
+}
 let prixUnitaire; 
 let nomPlat;
 switch (codePlat) {
